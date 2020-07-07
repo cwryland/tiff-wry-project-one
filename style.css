@@ -44,3 +44,115 @@ ul {
   list-style-type: none;
 }
 
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* Header Styles down below!*/
+
+header {
+  background-color: #F5C8CF;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-title {
+  margin-top: 15%;
+  float: left;
+  width: 50%;
+}
+
+.header-title p {
+  color: #042259;
+  line-height: 65px;
+  font-size: 4.6rem;
+  font-family: 'Barlow';
+}
+
+h1 {
+  font-size: 10.5rem;
+  width: 45%;
+  line-height: 88px;
+}
+
+.header-picture {
+  bottom: 0;
+  right: 0;
+  width: 56%;
+  position: relative;
+}
+
+/* Navigation Styles down below!*/
+
+.navigation ul {
+  text-align: right;
+}
+
+.navigation li {
+  padding-top: 12px;
+  display: inline-block;
+}
+
+.navigation a {
+  font-family: 'Barlow', 'san-serif';
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #042259;
+  text-transform: uppercase; 
+  padding: 0 12px;  
+  letter-spacing: 0.4px;
+}
+
+/* Social Media Styles down below!*/
+
+.social-media-list {
+  float: right;
+  margin-top: 80px;
+  margin-right: -122px;
+  
+}
+
+.social-media-list li {
+  padding-bottom: 22px;
+}
+
+.social-media-list a {
+  color: #1D81CC;
+  font-size: 2.6rem; 
+}
+
+/*Pink Section Styles down below!*/
+
+.pink-section {
+  background-color: #FCDDE2;
+  height: 100%;
+}
+
+.pink-section img {
+  float: left;
+  width: 27%;
+}
+
+.three-appliances {
+  padding: 80px 0;
+}
+
+.best-appliances-article {
+  float: left;
+  width: calc(75% - 30px);
+  padding-left: 30px;
+}
+
+h4 {
+    font-size: 4.4rem;
+    color: #1D81CC;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 22px;
+    line-height: 44px;
+}
+
