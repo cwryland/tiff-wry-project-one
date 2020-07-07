@@ -12,7 +12,7 @@ html {
   font-size: 65%;
 }
 
-body, nav, h1, h2, h3, h4, h6, p, ul, img {
+body, nav, h1, h2, h3, h4, h6, p, li, ul, img {
   margin: 0;
   padding: 0;
 }
@@ -23,17 +23,11 @@ body, nav, h1, h2, h3, h4, h6, p, ul, img {
   margin: 0 auto;
 }
 
-.footer-nav {
-  text-transform: uppercase;
-  font-family: 'Emblema One', cursive;
-  color: #1D81CC;
-}
-
 p {
   font-family: 'Barlow', 'san-serif';
   font-size: 2.5rem;
-  letter-spacing: 0.3px;
-  line-height: 35px; 
+  letter-spacing: 0.2px;
+  line-height: 29px; 
 }
 
 a {
@@ -49,7 +43,11 @@ button, input[type="submit"], input[type="reset"] {
 	border: none;
 	padding: 0;
 	cursor: pointer;
-	outline: inherit;
+  outline: inherit;
+  font-family: EmblemaOne, cursive;
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 29px;
 }
 
 /* Header Styles down below!*/
@@ -76,7 +74,7 @@ header {
 h1 {
   font-size: 10.5rem;
   width: 45%;
-  line-height: 88px;
+  line-height: 87.3px;
 }
 
 .header-picture {
@@ -126,33 +124,3 @@ h1 {
 }
 
 /*Pink Section Styles down below!*/
-
-.pink-section {
-  background-color: #FCDDE2;
-  height: 100%;
-}
-
-.pink-section img {
-  float: left;
-  width: 27%;
-}
-
-.three-appliances {
-  padding: 80px 0;
-}
-
-.best-appliances-article {
-  float: left;
-  width: calc(75% - 30px);
-  padding-left: 30px;
-}
-
-h4 {
-    font-size: 4.4rem;
-    color: #1D81CC;
-    text-transform: uppercase;
-    text-align: left;
-    padding-bottom: 22px;
-    line-height: 44px;
-}
-
