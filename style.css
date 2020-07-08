@@ -210,3 +210,39 @@ button.read-more {
   background-color: #FCDDE2;
 }
 
+/*Blue section styles down below!*/
+
+.both-articles-sections {
+  background-color: #F0F5FF;
+}
+
+.blue-section {
+  clear: both;
+}
+
+.smoothies-paragraph {
+  float: left;
+  width: 50%;
+}
+
+.new-appliances-paragraph img {
+  float: left;
+  width: 50%;
+}
+
+.smoothies-paragraph img {
+  float: right;
+  width: 50%;
+}
+
+.new-appliances-paragraph {
+  float: right;
+  width: 50%;
+}
+
+.smoothies-paragraph, .new-appliances-paragraph {
+  padding: 100px;
+}
+
+
+
