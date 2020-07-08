@@ -244,5 +244,124 @@ button.read-more {
   padding: 100px;
 }
 
+/*Icons in bottom pink background styles down below!*/
+
+.icons-in-bottom-pink {
+  background-color: #F5C8CF;
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+}
+
+.icons-in-bottom-pink li {
+  display: inline-block;
+  padding: 140px;
+}
+
+.icons-in-bottom-pink i {
+  color: #042259;
+  margin-bottom: 10px;
+}
+
+.icons-in-bottom-pink h3 {
+  font-size: 3rem;
+}
+
+/*Footer styles down below!*/
+
+footer {
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  background-color: #F0F5FF;
+  height: 55vh;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+.container-footer {
+  padding: 100px 0;
+}
+
+.footer-navigation-section {
+  font-size: 3rem;
+  text-align: right;
+}
+
+.footer-navigation-section a {
+  color: #1D81CC;
+}
+
+.newsletter {
+  float: left;
+  width: 50%;
+}
+
+input {
+  font-size: 2.2rem;
+  padding: 12px 17px;
+  margin: 21px 0;
+}
+
+.contact-us-info {
+  float: left;
+  width: 30%;
+}
+
+.copyright-section {
+  text-align: center;
+  background-color: #042259;
+  color: #F0F5FF;
+  padding: 12px 0;
+}
+
+/*Breakpoints for media queries down below!*/
+
+@media (max-width: 1280px) {
+  .header-picture
+      width: 80%;
+}
+
+.smoothies-paragraph, .new-appliances-paragraph {
+  padding-bottom: 0;
+}
+
+/*Last breakpoint for smallest devices down below!*/
+
+@media (max-width: 480px) {
+    
+  header 
+      height: 40vh;
+  }
+
+  h1 {
+      font-size: 5rem;
+      line-height: 50px;
+      margin-top: 50px;
+  }
+
+  .header-title p {
+      font-size: 1.5rem;
+      line-height: 20px;
+  }
+
+  .smoothies-paragraph img, 
+  .new-appliances-paragraph,
+  .new-appliances-paragraph img, 
+  .smoothies-paragraph {
+      width: 100%;
+      text-align: center;
+      height: 40vh;
+  }
+
+
+
+
+
+
+
 
 
