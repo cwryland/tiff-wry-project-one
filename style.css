@@ -331,16 +331,16 @@ input {
 
 /*Last breakpoint for smallest devices down below!*/
 
-@media (max-width: 480px) {
+@media (max-width: 480px) 
     
-  header 
-      height: 40vh;
+  header {
+    height: 40vh;
   }
 
   h1 {
-      font-size: 5rem;
-      line-height: 50px;
-      margin-top: 50px;
+    font-size: 5rem;
+    line-height: 50px;
+    margin-top: 50px;
   }
 
   .header-title p {
@@ -356,6 +356,7 @@ input {
       text-align: center;
       height: 40vh;
   }
+
 
 
 
