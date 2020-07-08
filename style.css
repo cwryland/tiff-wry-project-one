@@ -17,6 +17,17 @@ body, nav, h1, h2, h3, h4, h6, p, li, ul, img {
   padding: 0;
 }
 
+h2 {
+  font-family: Emblema One, cursive;
+  font-size: 4.2rem;
+}
+
+h3 {
+  font-family: Emblema One, cursive;
+  font-size: 4.2rem;
+  line-height: 42px;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 80%;
@@ -44,7 +55,7 @@ button, input[type="submit"], input[type="reset"] {
 	padding: 0;
 	cursor: pointer;
   outline: inherit;
-  font-family: EmblemaOne, cursive;
+  font-family: Emblema One, cursive;
   font-weight: 400;
   font-size: 2.0rem;
   line-height: 29px;
@@ -124,3 +135,78 @@ h1 {
 }
 
 /*Pink Section Styles down below!*/
+
+.pink-section {
+  background-color: #FCDDE2;
+  height: 100%;
+}
+
+.pink-section img {
+  float: left;
+  width: 26%;
+}
+
+.best-appliances-article {
+  padding: 75px 0;
+}
+
+.best-appliances-title {
+  float: left;
+  width: calc(75% - 30px);
+  padding-left: 30px;
+}
+
+h2 {
+  color: #1D81CC;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.pink-section p {
+  font-size: 2rem;
+  line-height: 29px;
+  letter-spacing: 0.2px;
+}
+
+.three-appliances h2 {
+  text-align: center;
+  padding: 42px 0;
+}
+
+.three-appliances img {
+  width: 100%;
+  display: inline-block;
+}
+
+.three-appliances li {
+  margin-right: 42px;
+  margin-bottom: 42px;
+  width: calc((100% /3) - 42px);
+  float: left;
+    
+}
+
+/*Button styles below but buttons show up in various places so it might get confusing!*/
+
+button.read-more-dark-blue {
+    font-size: 2rem;
+    line-height: 29px;
+    padding: 10px 15px;
+    margin: 20px 0;
+    display: inline-block;
+    color: #FCDDE2;
+    background-color: #042259;
+}
+
+input {
+  width: 60%;
+  float: left;
+  border: 1px solid #FCDDE2;
+}
+
+button.read-more {
+  color: #042259;
+  background-color: #FCDDE2;
+}
+
